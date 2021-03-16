@@ -70,7 +70,7 @@ module.exports = (config) => {
     logLevel: config.LOG_INFO,
 
     sauceLabs: {
-      testName: 'salte-auth/github',
+      testName: 'salte-auth/atlassian',
       tunnelIdentifier: process.env.TRAVIS_JOB_NUMBER,
       startConnect: false
     },

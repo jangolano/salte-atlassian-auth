@@ -1,17 +1,17 @@
 import { SalteAuth } from '@salte-auth/salte-auth';
-import { GitHub } from '../src/github';
-import { NewTab } from './new-tab';
+import { Redirect } from '@salte-auth/redirect';
+import { Atlassian } from '../src/atlassian';
 
 const auth = new SalteAuth({
   providers: [
-    new GitHub({
-      clientID: 'b44780ca7678681180c9',
+    new Atlassian({
+      clientID: '12345',
       responseType: 'code'
     })
   ],
 
   handlers: [
-    new NewTab({
+    new Redirect({
       default: true
     })
   ]
@@ -21,7 +21,7 @@ const button = document.createElement('button');
 button.innerHTML = `Login`;
 button.addEventListener('click', () => {
   auth.login({
-    provider: 'github'
+    provider: 'atlassian'
   });
 });
 

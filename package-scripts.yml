@@ -12,9 +12,6 @@ scripts:
     tdd:
       script: karma start karma.conf.js
       description: Watches for changes and executes the Test Suite accordingly
-    ci:
-      script: karma start karma.ci.conf.js
-      description: Executes the Test Suite on Sauce Labs
   serve:
     script: rollup -c rollup.serve.config.js --watch
     description: Starts a server at http://localhost:8080
@@ -30,4 +27,4 @@ scripts:
     description: Reports code coverage information to Coveralls
   semantic-release:
     script: semantic-release
-    description: Publishes the artifact to NPM and GitHub
+    description: Publishes the artifact to NPM
