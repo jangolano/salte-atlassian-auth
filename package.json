@@ -8,7 +8,6 @@
   "description": "A Salte Auth provider for authenticating with Atlassian!",
   "contributors": [
     "Ceci Woodward <ceci@salte.io>",
-    "Dave Woodward <dave@salte.io>",
     "Josh Angolano <grangolano@gmail.com>"
   ],
   "keywords": [
