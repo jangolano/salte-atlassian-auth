@@ -54,7 +54,7 @@ const auth = new SalteAuth({
 auth.login('atlassian');
 ```
 
-[npm-version-image]: https://img.shields.io/npm/v/@salte-auth/atlassian.svg?style=flat
+[npm-version-image]: https://img.shields.io/npm/v/@jangolano/atlassian.svg?style=flat
 [npm-downloads-image]: https://img.shields.io/npm/dm/@jangolano/atlassian.svg?style=flat
 [npm-url]: https://npmjs.org/package/@jangolano/atlassian
 
